@@ -5,9 +5,9 @@ export class ComponentTemplate extends AbstractTemplate {
 
 interface I{PascalCase}Props {}
 
-type {PascalCase} = I{PascalCase}Props;
+type {PascalCase}Props = I{PascalCase}Props;
 
-const {PascalCase}Props = ({ }: {PascalCase}Props) => {
+const {PascalCase} = ({ }: {PascalCase}Props) => {
   return (
     <div>
       {PascalCase} Content

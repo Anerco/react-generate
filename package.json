@@ -4,7 +4,7 @@
   "description": "Generate react components & hooks",
   "repository": "https://github.com/Anerco/react-generate",
   "publisher": "anerco",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.62.0"
   },
