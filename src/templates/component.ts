@@ -3,9 +3,7 @@ import AbstractTemplate from './models/AbstractTemplate';
 export class ComponentTemplate extends AbstractTemplate {
   template = `import React from "react";
 
-interface I{PascalCase}Props {}
-
-type {PascalCase}Props = I{PascalCase}Props;
+type {PascalCase}Props = {};
 
 const {PascalCase} = ({ }: {PascalCase}Props) => {
   return (

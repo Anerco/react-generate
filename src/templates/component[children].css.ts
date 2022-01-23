@@ -1,13 +1,10 @@
-import path from 'path';
 import AbstractTemplate from './models/AbstractTemplate';
 
 export class ComponentWithCssAndChildrenTemplate extends AbstractTemplate {
   template = `import React from "react";
 import "./{PascalCase}.css";
 
-interface I{PascalCase}Props {}
-
-type {PascalCase}Props = React.PropsWithChildren<I{PascalCase}Props>;
+type {PascalCase}Props = React.PropsWithChildren<{}>;
 
 const {PascalCase} = ({ children }: {PascalCase}Props) => {
   return (

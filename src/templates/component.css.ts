@@ -4,9 +4,7 @@ export class ComponentWithCssTemplate extends AbstractTemplate {
   template = `import React from "react";
 import "./{PascalCase}.css";
 
-interface I{PascalCase}Props {}
-
-type {PascalCase}Props = I{PascalCase}Props;
+type {PascalCase}Props = {};
 
 const {PascalCase} = ({ }: {PascalCase}Props) => {
   return (
